@@ -1,0 +1,133 @@
+header
+{
+    height: 150px;
+    width: 90%;
+}
+header #logo img
+{
+    position: absolute;
+    left: 5%;
+}
+header #menu img
+{
+    display: none;
+}
+header nav
+{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+header nav li
+{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+header nav li a
+{
+    text-decoration: none;
+}
+
+article
+{
+    position: relative;
+    left: 5%;
+}
+aside nav li
+{
+    list-style: none;
+}
+aside nav li a
+{
+    text-decoration: none;
+}
+
+footer
+{
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    header #logo img
+    {
+        width: 100px;
+        height: 75px;
+    }
+    header #menu img
+    {
+        display: table;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 5%;
+    }
+    header nav
+    {
+        display: none;
+    }
+    article
+    {
+        width: 90%;
+        right: 5%;
+    }
+    aside
+    {
+        position: relative;
+        left: 5%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    header #logo img
+    {
+        width: 120px;
+        height: 90px;
+    }
+    aside
+    {
+        width: 25%;
+        position: absolute;
+        top: 200px;
+        left: 75%;
+    }
+    article
+    {
+        width: 65%;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    header #logo img
+    {
+        width: 160px;
+        height: 120px;
+    }
+    aside
+    {
+        width: 25%;
+        position: absolute;
+        top: 200px;
+        left: 80%;
+    }
+    article
+    {
+        width: 70%;
+    }
+}
+@media screen and (min-width:1201px) {
+    header #logo img
+    {
+        width: 200px;
+        height: 150px;
+    }
+    aside
+    {
+        width: 25%;
+        position: absolute;
+        top: 200px;
+        left: 85%;
+    }
+    article
+    {
+        width: 75%;
+    }
+}
